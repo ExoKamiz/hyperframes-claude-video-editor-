@@ -22,15 +22,15 @@ Kingston Frameworks is a restrained, authoritative, craft-focused brand — "fin
 | `--kf-surface-cream` | `#F8F6F0` | Warm light surface, editorial/gallery feel |
 | `--kf-surface-white` | `#FFFFFF` | Pure white for modals, light-mode sections |
 | `--kf-border` | `#2A2520` | Hairlines, dividers on dark |
-| `--kf-gold` | `#B8960C` | Primary accent — muted pale gold, highlights only |
-| `--kf-gold-glow` | `rgba(184,150,12,0.35)` | Subtle glow behind gold focal elements |
+| `--kf-gold` | `#C9A961` | Primary accent — ochre pale gold, highlights only |
+| `--kf-gold-glow` | `rgba(201,169,97,0.35)` | Subtle glow behind gold focal elements |
 | `--kf-text` | `#FFFFFF` | Primary text on dark |
 | `--kf-text-on-light` | `#1A1A1A` | Primary text on light surfaces |
 | `--kf-text-dim` | `#6B7280` | Labels, metadata, captions |
 
 **Three-colour discipline:** black + gold + white/cream. No fourth accent. If a secondary accent is ever needed, it must be confirmed with Colin before use — default is to solve the problem with restraint and contrast instead.
 
-**Gold rule:** Pale, muted, premium. Never hot `#FFD700`. Gold is a highlight, never a large fill area. If more than ~5% of the frame is gold, reduce it.
+**Gold rule:** Pale ochre, muted, premium. Never hot `#FFD700`. Gold is a highlight, never a large fill area. If more than ~5% of the frame is gold, reduce it. Ochre skew (`#C9A961`) was chosen over a darker muted gold per Colin/Dasha direction — keeps the accent warm and gallery-adjacent rather than metallic.
 
 **Black rule:** Prefer warm near-black (`#1A1612`) over pure black (`#000000`) for large surfaces and display type. Pure black reads harsh; warm black reads premium.
 
@@ -169,7 +169,7 @@ Photo-first. Real workshop, real installs, real frames on real walls. Avoid stoc
 The following remain unresolved and should be confirmed with Colin/Dasha before production use:
 
 1. **Canonical logo SVG** — current asset is a placeholder.
-2. **Exact gold shade** — `#B8960C` is the anchor from the KingFrame build plan; Colin wanted to experiment with ochre variants. Alternatives on the table: `#C9A961` (lighter ochre), `#9A7B0A` (darker premium).
+2. **Gold shade** — `#C9A961` (ochre) confirmed by Colin April 2026. Previous anchor `#B8960C` is retired. Revisit only if Dasha pushes toward a different ochre variant during production.
 3. **Legal entity name** — operating names are `Kingston Frameworks`, `Frameworks Canada`, `Belleville Frameworks`. Legal entity not confirmed.
 4. **Trademark status** — CIPO registry not yet checked.
 5. **Public contact email + phone** — not yet documented for video CTA use.

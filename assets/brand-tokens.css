@@ -22,9 +22,9 @@
   --kf-surface-white: #FFFFFF;   /* pure white for light mode, modals */
   --kf-border: #2A2520;          /* hairlines, dividers on dark */
 
-  /* Accent — muted pale gold. NEVER hot yellow. Use sparingly, highlights only. */
-  --kf-gold: #B8960C;
-  --kf-gold-glow: rgba(184, 150, 12, 0.35);
+  /* Accent — ochre pale gold. NEVER hot yellow. Use sparingly, highlights only. */
+  --kf-gold: #C9A961;
+  --kf-gold-glow: rgba(201, 169, 97, 0.35);
 
   /* Text */
   --kf-text: #FFFFFF;            /* primary on dark */
