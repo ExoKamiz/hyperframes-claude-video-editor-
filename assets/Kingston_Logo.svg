@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PLACEHOLDER — Kingston Frameworks wordmark.
+  Replace with the canonical SVG from Colin/Dasha before any production render.
+  Current render is a text wordmark in Cormorant Garamond, to be substituted.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" role="img" aria-label="Kingston Frameworks">
+  <style>
+    .kf-word { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; letter-spacing: 0.08em; fill: #FFFFFF; }
+    .kf-rule { stroke: #B8960C; stroke-width: 1.5; }
+    .kf-sub  { font-family: "Montserrat", system-ui, sans-serif; font-weight: 500; letter-spacing: 0.32em; fill: #B8960C; text-transform: uppercase; }
+  </style>
+  <text x="320" y="62" text-anchor="middle" font-size="48" class="kf-word">KINGSTON FRAMEWORKS</text>
+  <line x1="160" y1="86" x2="480" y2="86" class="kf-rule" />
+  <text x="320" y="118" text-anchor="middle" font-size="14" class="kf-sub">Since 1982 · Kingston &amp; Belleville</text>
+</svg>
