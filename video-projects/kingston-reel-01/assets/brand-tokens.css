@@ -1,0 +1,51 @@
+/*
+ * Kingston Frameworks — Brand Tokens
+ *
+ * End-to-End Fine Art and Framing Solutions. Kingston & Belleville, Ontario.
+ * Archival custom framing since 1982.
+ *
+ * Positioning: cinematic minimalism + documentary craft. Quiet authority, not hype.
+ * Reference aesthetic: lowy1907.com. Premium gallery, never hot yellow gold.
+ *
+ * Copy this file into a new project's assets/ folder via
+ *   cp ../../assets/brand-tokens.css assets/
+ * and import it from every composition with
+ *   <link rel="stylesheet" href="assets/brand-tokens.css" />
+ */
+
+:root {
+  /* Surfaces — warm black over pure black for premium feel */
+  --kf-bg: #0F0F0F;              /* primary background */
+  --kf-bg-warm: #1A1612;         /* warm near-black, preferred for large type/surfaces */
+  --kf-surface: #1A1A1A;         /* cards, panels on dark */
+  --kf-surface-cream: #F8F6F0;   /* warm light surface, premium/editorial */
+  --kf-surface-white: #FFFFFF;   /* pure white for light mode, modals */
+  --kf-border: #2A2520;          /* hairlines, dividers on dark */
+
+  /* Accent — ochre pale gold. NEVER hot yellow. Use sparingly, highlights only. */
+  --kf-gold: #C9A961;
+  --kf-gold-glow: rgba(201, 169, 97, 0.35);
+
+  /* Text */
+  --kf-text: #FFFFFF;            /* primary on dark */
+  --kf-text-on-light: #1A1A1A;   /* primary on light */
+  --kf-text-dim: #6B7280;        /* labels, metadata, captions */
+
+  /* Status (internal / app use — not for brand video surfaces) */
+  --kf-danger: #DC2626;
+  --kf-warning: #F59E0B;
+  --kf-success: #16A34A;
+
+  /* Typography */
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+
+  /* Motion — premium restrained, never bouncy */
+  --ease-refined: cubic-bezier(0.32, 0.72, 0, 1);         /* luxurious settle, primary easing */
+  --ease-hover: cubic-bezier(0.4, 0, 0.2, 1);             /* standard material, hover states */
+  --dur-fast: 150ms;
+  --dur-medium: 300ms;
+  --dur-slow: 600ms;
+  --dur-reveal: 900ms;
+}
