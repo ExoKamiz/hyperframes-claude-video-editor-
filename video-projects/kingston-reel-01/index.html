@@ -19,20 +19,20 @@
 
   #root {
     position: relative;
-    width: 1920px;
-    height: 1080px;
+    width: 1080px;
+    height: 1920px;
     background: #000;
     overflow: hidden;
     font-family: var(--font-body);
     color: var(--kf-text);
   }
 
-  /* ─── FACE VIDEO — fills full 1920x1080 canvas, native phone framing ─── */
+  /* ─── FACE VIDEO — fills full 1080x1920 portrait canvas, native iPhone framing ─── */
   .face-wrap {
     position: absolute;
     inset: 0;
-    width: 1920px;
-    height: 1080px;
+    width: 1080px;
+    height: 1920px;
   }
   .face-wrap video {
     width: 100%; height: 100%;
@@ -40,33 +40,35 @@
     object-fit: cover;
   }
 
-  /* ─── PAYOFF POP-UP (bottom-right corner on the phrase "convoluted foam") ─── */
+  /* ─── PAYOFF POP-UP (bottom-center on the phrase "convoluted foam") ─── */
   .payoff {
     position: absolute;
-    right: 80px; bottom: 80px;
-    padding: 32px 44px;
+    left: 50%;
+    bottom: 200px;
+    transform: translateX(-50%);
+    padding: 36px 48px;
     background: rgba(15,15,15,0.88);
     border: 1.5px solid var(--kf-gold);
     backdrop-filter: blur(8px);
-    text-align: left;
-    max-width: 640px;
+    text-align: center;
+    max-width: 860px;
     opacity: 0;
     box-shadow: 0 8px 40px rgba(0,0,0,0.45);
   }
   .payoff .label {
     font-family: var(--font-body);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.36em;
     text-transform: uppercase;
     color: var(--kf-gold);
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
   .payoff .phrase {
     font-family: var(--font-display);
     font-weight: 600;
     font-style: italic;
-    font-size: 64px;
+    font-size: 80px;
     line-height: 1;
     color: var(--kf-text);
   }
@@ -77,16 +79,16 @@
     inset: 0;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    gap: 40px;
-    padding: 0 120px;
+    gap: 48px;
+    padding: 0 80px;
     opacity: 0;
-    background: radial-gradient(ellipse at 50% 45%, #2a2017 0%, var(--kf-bg-warm) 75%);
+    background: radial-gradient(ellipse at 50% 40%, #2a2017 0%, var(--kf-bg-warm) 75%);
   }
-  .outro .logo { width: 580px; height: auto; }
+  .outro .logo { width: 760px; height: auto; }
   .outro .lead {
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: 76px;
+    font-size: 96px;
     text-align: center;
     line-height: 1.05;
     color: var(--kf-text);
@@ -95,26 +97,26 @@
   .outro .sub {
     font-family: var(--font-body);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--kf-text-dim);
   }
   .outro .cta {
     display: inline-block;
-    padding: 18px 40px;
+    padding: 22px 48px;
     border: 1px solid var(--kf-gold);
     font-family: var(--font-body);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 0.04em;
     color: var(--kf-text);
   }
-  .outro .cta .arrow { color: var(--kf-gold); margin-left: 14px; }
+  .outro .cta .arrow { color: var(--kf-gold); margin-left: 16px; }
   .outro .domain {
     font-family: var(--font-mono);
     font-weight: 500;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 0.04em;
     color: var(--kf-text-dim);
   }
@@ -126,8 +128,8 @@
      data-composition-id="kingston-reel-01"
      data-start="0"
      data-duration="11"
-     data-width="1920"
-     data-height="1080">
+     data-width="1080"
+     data-height="1920">
 
   <!-- single audio source (video is video-only, no baked-in track) -->
   <audio id="face-audio" src="assets/clip-audio.m4a"
